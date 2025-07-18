@@ -56,7 +56,7 @@ jobs:
           ./cruelbuild config                    \
                        model=${{ matrix.model }} \
                        name="hawk-tuah"          \
-                       toolchain=default         \
+                       toolchain=$TOOLCHAIN      \
                        +magisk=alpha             \
                        +nohardening              \
                        +ttl                      \
